@@ -1,0 +1,15 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="designGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+  </linearGradient>
+</defs>
+<rect width="800" height="600" fill="url(#designGrad)"/>
+<rect x="200" y="150" width="400" height="300" rx="20" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+<circle cx="300" cy="250" r="40" fill="rgba(255,255,255,0.6)"/>
+<rect x="380" y="220" width="180" height="20" rx="10" fill="rgba(255,255,255,0.7)"/>
+<rect x="380" y="260" width="140" height="15" rx="7" fill="rgba(255,255,255,0.5)"/>
+<rect x="380" y="290" width="160" height="15" rx="7" fill="rgba(255,255,255,0.4)"/>
+<text x="400" y="520" text-anchor="middle" fill="white" font-family="sans-serif" font-size="24" font-weight="bold">Graphic Design</text>
+</svg>

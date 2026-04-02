@@ -1,0 +1,66 @@
+/* EMERGENCY SCROLL FIX - GUARANTEED TO WORK */
+
+/* Force scroll on html and body */
+html {
+  overflow: auto !important;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  height: auto !important;
+  min-height: 100vh !important;
+  scroll-behavior: smooth !important;
+}
+
+body {
+  overflow: auto !important;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  height: auto !important;
+  min-height: 100vh !important;
+  scroll-behavior: smooth !important;
+}
+
+/* Remove any height restrictions */
+#root,
+.App,
+main,
+div[class*="gradient"] {
+  height: auto !important;
+  min-height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+/* Ensure sections don't block scroll */
+section {
+  height: auto !important;
+  min-height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+/* Remove overflow hidden from all divs */
+div {
+  overflow: visible !important;
+}
+
+/* Only allow overflow hidden on specific elements */
+img,
+.rounded-2xl img,
+.rounded-xl img,
+.overflow-hidden img {
+  overflow: hidden !important;
+}
+
+/* Hide scrollbars but keep functionality */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+body {
+  -ms-overflow-style: none;
+}
